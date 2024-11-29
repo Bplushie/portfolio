@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mariane Okimoto</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="MyWebfontsKit.css">
+</head>
+<body>
+
+    <Header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </Header>
+
+    <main>
+
+        <section id="home">
+            <span>2024</span>
+            <h1>Mariane Okimoto</h1>
+            <div class="brief-description">
+                <p>Studying Systems Development</p>
+                <svg></svg>
+                <p>Graphic Designer</p>
+                <svg></svg>
+                <p>Illustrator</p>
+            </div>
+        </section>
+
+        <section id="about-me">
+            <div class="title-section">
+                <h2>About Me</h2>
+            </div>
+            <div>
+                <img src="" alt="Foto de Mariane">
+            </div>
+            <div>
+                <h3>Hi,</h3>
+                <p>Sou Analista de Marketing com formação em Design Gráfico e pós-graduação em Design Digital. Tenho experiência em modelagem de negócios, criação de personas e atualmente estou cursando Análise e Desenvolvimento de Sistemas, unindo marketing e tecnologia para soluções inovadoras.</p>
+            </div>
+            <div>
+                <h3>Languages</h3>
+                <ul>
+                    <li>Brazilian Portuguese <span>Native</span></li>
+                    <li>English <span>Advanced</span></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Figma</li>
+                    <li>Premiere</li>
+                    <li>Illustrator</li>
+                    <li>Indesign</li>
+                    <li>Html, CSS and JavaScript<br>Python</li>
+                    <li>After Effects (basic)</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Linkedin: </li>
+                    <li>Github:</li>
+                    <li>Instagram: </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Experience</h3>
+                <div>
+                    <h4>Analista de Marketing</h4>
+                    <p>Wood Prime Móveis e Decorações</p>
+                    <p>Mar.2022 - Atual</p>
+                </div>
+                <div>
+                    <h4>Analista de Marketing</h4>
+                    <p>Wood Prime Móveis e Decorações</p>
+                    <p>Mar.2022 - Atual</p>
+                </div>
+                <div>
+                    <h4>Analista de Marketing</h4>
+                    <p>Wood Prime Móveis e Decorações</p>
+                    <p>Mar.2022 - Atual</p>
+                </div>
+            </div>
+            <div>
+                <h3>Education</h3>
+                <div>
+                    <h4>International University Center <span>(UNINTER)</span></h4>
+                    <p>Bachelor's Degree in <strong>Analysis and Systems Development</strong></p>
+                    <p>Jul.2024 - Atual</p>
+                </div>
+                <div>
+                    <h4>State University of Londrina <span>(UEL)</span></h4>
+                    <p>Postgraduate Program in <strong>Digital Design</strong></p>
+                    <p>Mar.2020 - Dez.2021</p>
+                </div>
+                <div>
+                    <h4>State University of Londrina <span>(UEL)</span></h4>
+                    <p>Bachelor's Degree in <strong>Graphic Design</strong></p>
+                    <p>Mar.2015 - Jan.2019</p>
+                </div>
+            </div>
+           
+        </section>
+
+        <section id="portfolio">
+            <div class="title-section">
+                <h2>Content</h2>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="title-section">
+                <h2>Contact</h2>
+            </div>
+            <form action="/enviar-contact" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome Completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        
+        </section>
+    </main>
+    <footer id="footer">
+        &copy; 2024 Mariane Okimoto
+    </footer>
+</body>
+</html>

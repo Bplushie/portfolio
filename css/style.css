@@ -1,0 +1,52 @@
+/* Variables */
+:root {
+    /* Cores principais */
+    --primary-color: ; /* Cor Primária. Utilizado em: Títulos */
+    --secondary-color: ; /* Cor Secundária. Utilizado em: Corpo de textos */
+
+    /* Cores de fundo */
+    --background-color: ; 
+    --background-color-2: ;
+
+    /* Fontes */
+    --primary-font-family: "CastaThin", sans-serif; /* Fonte Primária. Utilizado em: Títulos de Sessões */
+    --secondary-font-family: "Poppins", sans-serif; /* Fonte Secundária. Utilizado em: Corpo de Textos */
+
+}
+
+/* CSS Resets */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* CSS General */
+
+h1 {
+
+}
+
+h2 {
+    font-family: "CastaThin";
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+span {
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+
+}
