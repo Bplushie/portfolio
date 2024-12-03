@@ -1,38 +1,74 @@
+@import url('/css/MyWebfontsKit.css');
+
 /* Variables */
 :root {
     /* Cores principais */
-    --primary-color: ; /* Cor Primária. Utilizado em: Títulos */
-    --secondary-color: ; /* Cor Secundária. Utilizado em: Corpo de textos */
+    --primary-color: #602DAE; /* Cor Primária. Utilizado em: Títulos */
+    --secondary-color: #232323; /* Cor Secundária. Utilizado em: Corpo de textos */
 
     /* Cores de fundo */
-    --background-color: ; 
+    --background-color: #D9CAF5; 
     --background-color-2: ;
 
     /* Fontes */
-    --primary-font-family: "CastaThin", sans-serif; /* Fonte Primária. Utilizado em: Títulos de Sessões */
-    --secondary-font-family: "Poppins", sans-serif; /* Fonte Secundária. Utilizado em: Corpo de Textos */
-
+    --primary-font-family: "CastaThin", serif; /* Fonte Primária. Utilizado em: Títulos de Sessões */
+    --secondary-font-family: "TheSeasons", serif; /* Fonte Secundária. Utilizado em: Subítuos */
+    --continuous-font-family: "Poppins", sans-serif; /* Fonte Secundária. Utilizado em: Corpo de Textos */
+    
+    /* Peso das Fontes */
+    --thin: 100;
+    --extra-light: 200;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semi-bold: 600;
+    --bold: 700;
+    --extra-bold: 800;
+    --black: 900;
 }
 
 /* CSS Resets */
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--continuous-font-family);
+    color: var(--secondary-color);
+    font-size: 1rem;
+}
+html {
+    scroll-behavior: smooth;
+}
+*:link {
+    text-decoration: none;
 }
 
 /* CSS General */
 
-h1 {
+section > * {
+    max-width: 62rem;      
+    padding: 0 3rem;     
+}
 
+h1 {
+    font-family: var(--secondary-font-family);
+    font-size: 4rem;
+    font-weight: var(--regular);
+    color: var(--primary-color);
 }
 
 h2 {
-    font-family: "CastaThin";
+    font-family: var(--primary-font-family);
+    font-size: 6rem;
+    font-weight: var(--thin);
+    color: var(--secondary-color);
 }
 
 h3 {
-
+    font-family: var(--secondary-font-family);
+    font-size: 3rem;
+    font-weight: var(--regular);
+    color: var(--primary-color);
+    padding-bottom: 2rem;
 }
 
 h4 {
@@ -48,5 +84,123 @@ ul {
 }
 
 img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Menu */
+
+nav ul {
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(10px);
+}
+
+nav ul li {
+    padding: 1rem;
+}
+
+nav ul li:hover {
+    background-color: var(--background-color);
+}
+
+main {
+    padding-top: 3rem;
+}
+
+/* Title Section */
+
+.title-section {
+    height: 12rem;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+}
+
+/* Home Section */
+
+#home {
+    background-image: url(/assets/fundo.png);
+    background-position: ;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    padding-left: 3rem;
+    max-width: 100%;
+}
+
+.horizontal-line span {
+    color: var(--primary-color);
+    font-weight: var(--medium);
+}
+
+.horizontal-line::after {
+    content: "";
+    flex-grow: 1;      
+    border-bottom: 1px solid var(--secondary-color);
+    margin-left: 1rem;  
+}
+
+#home #title {
+    margin-bottom: -3rem;
+    max-width: 48rem;
+    width: 100%;
+}
+
+.brief-description p {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+/* About me Section */
+
+.about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me-content > div {
+    padding-bottom: 3rem;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+.about-me-content div div {
+    padding-bottom: 1rem;
+}
+
+.about-me-content div span {
+    font-size: 0.8rem;
+    align-items: center;
+}
+
+.about-me-content > div:nth-child(n+4) {
+    flex: 1 1 48%;
+}
+
+.about-me-content div ul li {
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.about-me-content div ul li > *:first-child {
+    padding-right: 1rem;
+}
+
+/* Responsible */
+
+@media (max-width: 1440px) {
 
 }

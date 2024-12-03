@@ -1,5 +1,7 @@
-/**
- * @license
+
+/* The Seasons */
+
+/* @license
  * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
  * 
  * The fonts listed in this notice are subject to the End User License
@@ -14,10 +16,63 @@
  * 
  * © 2024 MyFonts Inc. */
 
-
-  
 @font-face {
-  font-family: "CastaThin";
-  src: url('webFonts/CastaThin/font.woff2') format('woff2'), url('webFonts/CastaThin/font.woff') format('woff');
+     font-family: "CastaThin";
+     src: url('/webFonts/CastaThin/font.woff2') format('woff2'), 
+          url('/webFonts/CastaThin/font.woff') format('woff');
+          
 }
 
+/* The Seasons */
+
+/* @license 
+ * Demo Version Free for Personal Use
+ */
+
+/* Fonte Regular */
+@font-face {
+     font-family: "TheSeasons";
+     src: url('/webFonts/TheSeasons/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+     font-weight: 400; /* Regular */
+     font-style: normal;
+ }
+ 
+ /* Fonte Bold */
+ @font-face {
+     font-family: "TheSeasons";
+     src: url('/webFonts/TheSeasons/Fontspring-DEMO-theseasons-bd.otf') format('opentype');
+     font-weight: 700; /* Bold */
+     font-style: normal;
+ }
+ 
+ /* Fonte Bold Italic */
+ @font-face {
+     font-family: "TheSeasons";
+     src: url('/webFonts/TheSeasons/Fontspring-DEMO-theseasons-bdit.otf') format('opentype');
+     font-weight: 700; /* Bold */
+     font-style: italic;
+ }
+ 
+ /* Fonte Italic */
+ @font-face {
+     font-family: "TheSeasons";
+     src: url('/webFonts/TheSeasons/Fontspring-DEMO-theseasons-it.otf') format('opentype');
+     font-weight: 400; /* Regular */
+     font-style: italic;
+ }
+ 
+ /* Fonte Light */
+ @font-face {
+     font-family: "TheSeasons";
+     src: url('/webFonts/TheSeasons/Fontspring-DEMO-theseasons-lt.otf') format('opentype');
+     font-weight: 300; /* Light */
+     font-style: normal;
+ }
+ 
+ /* Fonte Light Italic */
+ @font-face {
+     font-family: "TheSeasons";
+     src: url('/webFonts/TheSeasons/Fontspring-DEMO-theseasons-ltit.otf') format('opentype');
+     font-weight: 300; /* Light */
+     font-style: italic;
+ }
