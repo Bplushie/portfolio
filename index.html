@@ -21,9 +21,9 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#about-me-title">About me</a></li>
+                <li><a href="#portfolio-title">Portfolio</a></li>
+                <li><a href="#contact-title">contact</a></li>
             </ul>
         </nav>
     </Header>
@@ -48,7 +48,7 @@
             </div>
         </section>
 
-        <section class="title-section">
+        <section class="title-section" id="about-me-title">
             <h2>About Me</h2>
         </section>
         
@@ -146,7 +146,7 @@
             </div>
         </section>
 
-        <section class="title-section">
+        <section class="title-section" id="portfolio-title">
             <h2>Content</h2>
         </section>
 
@@ -154,26 +154,26 @@
 
         </section>
 
-        <section class="title-section">
+        <section class="title-section" id="contact-title">
             <h2>Contact</h2>
         </section>
 
         <section id="contact">
-            <form action="/enviar-contact" method="POST">
+            <form action="/contato-enviado.html" method="POST">
                 <div class="form-group">
-                    <label for="nome">Nome Completo</label>
+                    <label for="nome">Nome Completo</label><br>
                     <input type="text" id="nome" name="nome" placeholder="Digite seu nome Completo" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">E-mail</label>
+                    <label for="email">E-mail</label><br>
                     <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="assunto">Assunto</label>
+                    <label for="assunto">Assunto</label><br>
                     <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required>
                 </div>
                 <div class="form-group">
-                    <label for="mensagem">Mensagem</label>
+                    <label for="mensagem">Mensagem</label><br>
                     <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui" required></textarea>
                 </div>
                 <div class="form-group">
