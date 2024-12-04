@@ -1,4 +1,4 @@
-@import url('/css/MyWebfontsKit.css');
+@import url('./css/MyWebfontsKit.css');
 
 /* Variables */
 
@@ -142,7 +142,7 @@ main {
 /* Home Section */
 
 #home {
-    background-image: url(/assets/fundo.png);
+    background-image: url(./assets/fundo.png);
     background-size: cover;
     height: 38rem;
     flex-direction: column;
@@ -205,7 +205,7 @@ main {
 }
 
 #photo {
-    background-image: url('/assets/foto-de-perfil.png');
+    background-image: url('./assets/foto-de-perfil.png');
     border-radius: 1rem;
     background-position: center;
     background-size: cover;
